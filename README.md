@@ -57,7 +57,7 @@ Make the script executable and run it directly:
 chmod +x render-schedule.py
 
 # Run the script
-./render-schedule.py \
+./render-schedule \
     --schedule=schedule.json \
     --overrides=overrides.json \
     --from='2025-11-07T17:00:00Z' \
@@ -102,3 +102,5 @@ python render-schedule.py \
     --from='2025-11-07T17:00:00Z' \
     --until='2025-11-21T17:00:00Z'
 ```
+
+However, this doesn't quite fit the format given in the problem description.
