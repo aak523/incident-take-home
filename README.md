@@ -102,17 +102,3 @@ python render-schedule.py \
     --from='2025-11-07T17:00:00Z' \
     --until='2025-11-21T17:00:00Z'
 ```
-
-## Example Usage
-
-Assuming you have `schedule.json` and `overrides.json` in your project directory:
-
-```bash
-./render-schedule.py \
-    --schedule=schedule.json \
-    --overrides=overrides.json \
-    --from='2025-11-07T17:00:00Z' \
-    --until='2025-11-21T17:00:00Z'
-```
-
-This will output the final schedule as JSON to stdout.
